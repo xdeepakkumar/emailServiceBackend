@@ -39,7 +39,7 @@ public class EmailService {
 		//step 1 : getting the session object
 		Session session = Session.getInstance(properties, new Authenticator() {
 			protected PasswordAuthentication getPasswordAuthentication() {
-				return new PasswordAuthentication("abhiguptaxxx@gmail.com", "ihadjustsex");
+				return new PasswordAuthentication("abhiguptaxxx@gmail.com", "");
 			}
 		});
 		
